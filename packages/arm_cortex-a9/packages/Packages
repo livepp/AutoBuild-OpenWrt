@@ -1,0 +1,489 @@
+Package: bash
+Version: 5.0-4
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: arm_cortex-a9
+Installed-Size: 318083
+Filename: bash_5.0-4_arm_cortex-a9.ipk
+Size: 318659
+SHA256sum: 8d54d6114f6078e8e3f22c6811ea409dde118f9e3e555be82f817a5ac2e585d8
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: btrfs-progs
+Version: 5.6-1
+Depends: libc, libattr, libuuid1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 1057119
+Filename: btrfs-progs_5.6-1_arm_cortex-a9.ipk
+Size: 1057349
+SHA256sum: d10bb70b9bf76fb8b2b59898c1f21e7936646c6172d6afe14625594215c3ff3a
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgi-io
+Version: 19
+Depends: libc, libubox20191228, libubus20191227
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 8368
+Filename: cgi-io_19_arm_cortex-a9.ipk
+Size: 9152
+SHA256sum: 22972614a6cb659c1e8b99a06efda58612739b225875e9af7fb634ac0c7f812f
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-base64
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9
+Installed-Size: 19524
+Filename: coreutils-base64_8.32-1_arm_cortex-a9.ipk
+Size: 20364
+SHA256sum: d9ecc26bff44bf1378ede15553521cb1676b797a2e184825fa7ce6d49c870ab4
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/bin/gnu-nohup
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9
+Installed-Size: 17838
+Filename: coreutils-nohup_8.32-1_arm_cortex-a9.ipk
+Size: 18678
+SHA256sum: 69d5283c61ac0a347548bdea53cc56bfc6bd904ad4895b878b0b983ba25965b2
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.32-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: coreutils_8.32-1_arm_cortex-a9.ipk
+Size: 975
+SHA256sum: 35b86cbf5a2c44d365604c51682a0ac8c0d7f4973bb6e9e7436d572b80a7d7e0
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 5038
+Filename: etherwake_1.09-5_arm_cortex-a9.ipk
+Size: 5955
+SHA256sum: 755559bcecb8f02ff0ba414eab76e96d24c7caa4b0cbccc9f92f32032ccdfe36
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: frpc
+Version: 0.33.0-1
+Depends: libc
+License: Apache-2.0
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 3861164
+Filename: frpc_0.33.0-1_arm_cortex-a9.ipk
+Size: 3856814
+SHA256sum: 033e6dd9a0fe21efb90fcdedf4340a7d1e1895e795c1d0026513bc0f52547bcf
+Description:  frp is a fast reverse proxy to help you expose a local server behind
+ a NAT or firewall to the internet.
+
+Package: gzip
+Version: 1.10-3
+Depends: libc
+Alternatives: 300:/bin/gunzip:/usr/libexec/gunzip-gnu, 300:/bin/gzip:/usr/libexec/gzip-gnu, 300:/bin/zcat:/usr/libexec/zcat-gnu
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:gzip
+Architecture: arm_cortex-a9
+Installed-Size: 38601
+Filename: gzip_1.10-3_arm_cortex-a9.ipk
+Size: 39443
+SHA256sum: 5797f8cfc3a2da4b9ca8ac1547ea245ec2d339ce844133837e8a43ab66b68676
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 4538
+Filename: hd-idle_1.05-2_arm_cortex-a9.ipk
+Size: 5325
+SHA256sum: 26e90fa0b7fe17e5323e21cb7c124f1cdcf96cd160b05ba79f009fbe1c8e33c3
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 2.2.0-3
+Depends: libc, libncurses6
+License: GPL-2.0
+Section: admin
+CPE-ID: cpe:/a:htop:htop
+Architecture: arm_cortex-a9
+Installed-Size: 57099
+Filename: htop_2.2.0-3_arm_cortex-a9.ipk
+Size: 57911
+SHA256sum: d96aed0104f05308428469caedac71e651eeba1a688f29dc1d23a4bf80c1c818
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: iputils-arping
+Version: 20190709-1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:iputils_project:iputils
+Architecture: arm_cortex-a9
+Installed-Size: 7925
+Filename: iputils-arping_20190709-1_arm_cortex-a9.ipk
+Size: 8753
+SHA256sum: d7939eeb3b7bcd1aca14c96cd050b91ec5bb13d0eb935803eca4dd06d01a81fb
+Description:  Send ARP REQUEST packets to a neighbor host
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 5800
+Filename: libattr_2.4.48-2_arm_cortex-a9.ipk
+Size: 6576
+SHA256sum: 9f5573f0ea5985930f83f793b42205b82631402f5689b39d56e3ca2bd330ccb5
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap
+Version: 2.36-1
+Depends: libc
+License: GPL-2.0-only
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 9787
+Filename: libcap_2.36-1_arm_cortex-a9.ipk
+Size: 10489
+SHA256sum: 4a671b7d7176c204c61484f451fd56f28c31e26329bfc316c29dddfb382cb15c
+Description:  Linux capabilities library library
+
+Package: libopenldap
+Version: 2.4.48-1
+Depends: libc, libopenssl1.1, libsasl2, libpthread
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: arm_cortex-a9
+Installed-Size: 239261
+Filename: libopenldap_2.4.48-1_arm_cortex-a9.ipk
+Size: 238539
+SHA256sum: 458a1406bdc77fac008181cc6847ad5f7e50a5139f0e2c82c7f0020b33c49143
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpcre
+Version: 8.44-2
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9
+Installed-Size: 137049
+Filename: libpcre_8.44-2_arm_cortex-a9.ipk
+Size: 137813
+SHA256sum: c9fc4d313d0ae57efa834b395ee27a3b3487042df15d3a1b5f5d9ee9521df094
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsasl2
+Version: 2.1.27-3
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: arm_cortex-a9
+Installed-Size: 82294
+Filename: libsasl2_2.1.27-3_arm_cortex-a9.ipk
+Size: 82950
+SHA256sum: 5a6dc7463efce122e3084fae277b472c91e96fd8eb156db6fb4293c1d9c01b76
+Description:  A general purpose authentication library
+
+Package: libuv1
+Version: 1.34.2-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: arm_cortex-a9
+Installed-Size: 53128
+Filename: libuv1_1.34.2-1_arm_cortex-a9.ipk
+Size: 53838
+SHA256sum: 088fca9df14d28ef70db55e3ec6b6ca9ebe0f661636039b029ecb38eacadb2d0
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 3.2.1-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+License: LGPL-2.1+exception
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 130912
+Filename: libwebsockets-full_3.2.1-1_arm_cortex-a9.ipk
+Size: 131252
+SHA256sum: 46ee7caa35d4050fd35cb2a5e0aeaf6ef6ea09d89d9ce73983312529e121a5d1
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: lrzsz
+Version: 0.12.20-2
+Depends: libc
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 49549
+Filename: lrzsz_0.12.20-2_arm_cortex-a9.ipk
+Size: 50077
+SHA256sum: aeed6c0ce47c8bedec1e810e25ad41619b96cb43a74d818fedc557abf077ceae
+Description:  Transfer files in your login sessions.
+ Very leightweight and straight forward.
+ You just need a terminal client that can do
+ either X, Y or Z-modem file transfers.
+
+Package: mwan3
+Version: 2.8.8-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 13411
+Filename: mwan3_2.8.8-1_all.ipk
+Size: 14425
+SHA256sum: 7e56fb01b78309d87fee37f0e6b2fe046b7527cc74fbce68334a62b5771fc6ef
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 4.9.3-1
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: arm_cortex-a9
+Installed-Size: 64128
+Filename: nano_4.9.3-1_arm_cortex-a9.ipk
+Size: 64972
+SHA256sum: b94619fdb649b313c717003e065091f2f2262023c83c726198d0f62493a34e60
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: ntfs-3g
+Version: 2017.3.23-3-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:ntfs-3g:ntfs-3g
+Architecture: arm_cortex-a9
+Installed-Size: 187381
+Filename: ntfs-3g_2017.3.23-3-fuseint_arm_cortex-a9.ipk
+Size: 188089
+SHA256sum: 6c8d2085e21277c5d3fd65403232c63f3bc7eab31d769b8cc9e27cd9e73b65c7
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openssh-sftp-client
+Version: 8.3p1-2
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a9
+Installed-Size: 58307
+Filename: openssh-sftp-client_8.3p1-2_arm_cortex-a9.ipk
+Size: 59145
+SHA256sum: 08bd350c1c7c0957aa2f5e9be62de4ab4d1276f230e4917b914d3daecb26f3d4
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 8.3p1-2
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a9
+Installed-Size: 42142
+Filename: openssh-sftp-server_8.3p1-2_arm_cortex-a9.ipk
+Size: 42902
+SHA256sum: 25f9eb2a3596d48be81d4509c318e5b9e5f81c7ae46204c283e78b09f669dbce
+Description:  OpenSSH SFTP server.
+
+Package: screen
+Version: 4.8.0-1
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:screen
+Architecture: arm_cortex-a9
+Installed-Size: 172760
+Filename: screen_4.8.0-1_arm_cortex-a9.ipk
+Size: 173491
+SHA256sum: bc210c985652f4f99b8f3dbd33a77cfa0ee626c0cde3ad789629860d987140c7
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: smartmontools
+Version: 7.1-3
+Depends: libc, uclibcxx
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 177257
+Filename: smartmontools_7.1-3_arm_cortex-a9.ipk
+Size: 178164
+SHA256sum: 1df551d3ce4ba0a82089fc24a83dbc8c28f674141ca62e262464992edd7f87c7
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: tree
+Version: 1.8.0-1
+Depends: libc, libgcc1
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 23920
+Filename: tree_1.8.0-1_arm_cortex-a9.ipk
+Size: 24633
+SHA256sum: ea77dfe1922c098eef3640d54ad3ac7554ec7f0674a8874e15e64f6693273add
+Description:  List contents of directories in a tree-like format
+
+Package: ttyd
+Version: 1.6.0-2
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: arm_cortex-a9
+Installed-Size: 221514
+Filename: ttyd_1.6.0-2_arm_cortex-a9.ipk
+Size: 222129
+SHA256sum: d09f15db786e0559389a44858593bb8ebd03dffcf9c8fa48c0c0b7428255338e
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: arm_cortex-a9
+Installed-Size: 107412
+Filename: unzip_6.0-8_arm_cortex-a9.ipk
+Size: 108362
+SHA256sum: 12141520cfcf5b27b7f94868bd86d399e3fe9454071698b9ce01059c93eff1a1
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: vim-fuller
+Version: 8.1-6
+Depends: libc, libncurses6
+Section: utils
+CPE-ID: cpe:/a:vim:vim
+Architecture: arm_cortex-a9
+Installed-Size: 2845287
+Filename: vim-fuller_8.1-6_arm_cortex-a9.ipk
+Size: 2841746
+SHA256sum: 70ec93043dca626f5509ce1591d5b69dd0df23edab86b2e654cf111d82e1fb28
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Big build)
+
+Package: wget
+Version: 1.20.3-4
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget-ssl
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:gnu:wget
+Architecture: arm_cortex-a9
+Installed-Size: 200057
+Filename: wget_1.20.3-4_arm_cortex-a9.ipk
+Size: 200667
+SHA256sum: 62d335c159641c7438f11b24ec1a2805d9c092b623a9b5d4d0f2eb1ce4a93a5f
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wsdd2
+Version: 2020-05-06-671d040c-8
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 16220
+Filename: wsdd2_2020-05-06-671d040c-8_arm_cortex-a9.ipk
+Size: 17136
+SHA256sum: 577ad6b0a9cc2b75b34acef1a58f4cc1cf40cb894a507047ec39881e47f24a9c
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: zsh
+Version: 5.8-1
+Depends: libc, libcap, libncurses6, libncursesw6, libpcre, librt
+License: ZSH
+Section: utils
+CPE-ID: cpe:/a:zsh_project:zsh
+Architecture: arm_cortex-a9
+Installed-Size: 1829037
+Filename: zsh_5.8-1_arm_cortex-a9.ipk
+Size: 1826346
+SHA256sum: 5efa5e4e10d8a5bfdfda7e66bc2ca1ca630c6401ba60a83faa66a682e7a1158e
+Description:  Zsh is a UNIX command interpreter (shell) usable as an interactive
+ login  shell  and  as a shell script command processor. Of the standard
+ shells, zsh most closely resembles ksh but includes many enhancements.
+ Zsh has command line editing, builtin spelling correction, programmable
+ command completion, shell functions (with autoloading), a history
+ mechanism, and a host of other features.
+
