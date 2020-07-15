@@ -1,0 +1,13 @@
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/lienol/package/tcping
+SourceName: tcping
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 3497
+Filename: tcping_0.3-1_arm_cortex-a9.ipk
+Size: 4169
+SHA256sum: 80ebbbda29ce7b2d4d121506b2b61d4077b2aaceff7d3ae640095695df62bb98
+Description:  tcping measures the latency of a tcp-connection
+
